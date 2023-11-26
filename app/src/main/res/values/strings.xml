@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Currency Train</string>
+    <string name="i_don_t_have_an_account_yet"><u>I don\'t have an account yet</u></string>
+    <string name="i_have_an_account"><u>I have an account</u></string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">sign up</string>
+
+    <string name="graph">https://www.google.com</string>
+    <string name="finish_test">finish test</string>
+    <string name="start_train">start train</string>
+</resources>

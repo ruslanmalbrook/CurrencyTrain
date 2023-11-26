@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    tools:context=".presentation.stat.StatFragment">
+
+    <WebView
+        android:id="@+id/wvHtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:id="@+id/auth_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You should complete a test to know how to make trade operations"
+            android:textSize="16sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg"
+            android:textAllCaps="true"
+            android:text="@string/start_train"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+</FrameLayout>
